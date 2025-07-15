@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form {
+    transition: box-shadow 0.2s ease-in-out;
+}
+form:focus-within {
+    box-shadow: 0 0 0 3px #2563eb33;
+}
+
+table tr {
+    transition: background 0.2s ease-in-out;
+}
+table tr:hover {
+    background-color: #e0f2fe;
+}
